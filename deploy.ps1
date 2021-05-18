@@ -14,6 +14,5 @@ New-AzResourceGroupDeployment `
  -TemplateFile $templateFile `
  -TemplateParameterFile $templateParameterFile `
  -Force `
- -Mode Complete `
  -verbose
 
